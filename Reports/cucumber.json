@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user login to face book",
+        "description": "",
+        "id": "user-login-to-the-facebook;user-login-to-face-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26442585430,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "lanch the browser and enter the url",
+            "match": {
+              "location": "Step.lanch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3338221800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gives  email \"dhanapal165@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanapal165@gmail.com",
+                  "offset": 19
+                }
+              ],
+              "location": "Step.user_gives_email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231980285,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user gives lastname \"thimmarayan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thimmarayan",
+                  "offset": 21
+                }
+              ],
+              "location": "Step.user_gives_lastname(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "user login to the facebook",
+    "description": "",
+    "id": "user-login-to-the-facebook",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
