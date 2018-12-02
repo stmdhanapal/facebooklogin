@@ -33,7 +33,7 @@ formatter.match({
   "location": "Step.lanch_the_browser_and_enter_the_url()"
 });
 formatter.result({
-  "duration": 17350707713,
+  "duration": 19192305263,
   "status": "passed"
 });
 formatter.match({
@@ -46,7 +46,7 @@ formatter.match({
   "location": "Step.user_gives_email(String)"
 });
 formatter.result({
-  "duration": 737923951,
+  "duration": 4796746030,
   "status": "passed"
 });
 formatter.match({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "Step.user_gives_lastname(String)"
 });
 formatter.result({
-  "duration": 186318909,
+  "duration": 267350367,
   "status": "passed"
 });
 });
