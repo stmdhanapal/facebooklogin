@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.012788">
-<testcase classname="user login to the facebook" name="user login to face book" time="30.012788">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.274951">
+<testcase classname="user login to the facebook" name="user login to face book" time="18.274951">
 <system-out><![CDATA[Given lanch the browser and enter the url...................................passed
 When user gives  email "dhanapal165@gmail.com"..............................passed
 Then user gives lastname "thimmarayan"......................................passed

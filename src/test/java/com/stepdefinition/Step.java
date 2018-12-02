@@ -1,5 +1,6 @@
 package com.stepdefinition;
 
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import baseclass.BaseClass;
@@ -26,11 +27,14 @@ public class Step extends BaseClass {
 	    
 		l=new Login(driver);
 		setText(l.getEmail(), email);
+		                            
+		
+		
 	}
 
 	@Then("^user gives lastname \"([^\"]*)\"$")
 	public void user_gives_lastname(String pass) throws Throwable {
-		l=new Login(driver);
+		//l=new Login(driver);
 		setText(l.getPass(), pass);
 	}
 
